@@ -26,4 +26,7 @@ def self.all
    @@all.size
  end
 
+ def say_species
+   @species
+
 end
