@@ -58,5 +58,11 @@ def feed_fish
   pets[:fishes].find{|fish| fish.mood = "happy"}
 end
 
+def sell_pets
+  pets.each do |type, pets|
+    pets.find {|pet| pet.mood = "nervous"}
+    pets.clear
+  end
+
 
 end
