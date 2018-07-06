@@ -59,13 +59,11 @@ def feed_fish
 end
 
 def sell_pets
-  pets.each do |type, pets|
-    pets.map |pet|
-    if pet.mood = "nervous"
-      pets.clear
+    pets.each do |type, pets|
+      pets.map {|pet| pet.mood = "nervous"}
+    end
+    pets.clear
   end
-end
-end
 
 
 end
