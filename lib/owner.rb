@@ -58,11 +58,12 @@ def feed_fish
   pets[:fishes].find{|fish| fish.mood = "happy"}
 end
 
+
 def sell_pets
     pets.each do |type, pets|
-      pets.find {|pet| pet.mood = "nervous"}
+      pets.map {|pet| pet.mood = "nervous"}
     end
-   pets.clear
+    pets.clear
   end
 
 
