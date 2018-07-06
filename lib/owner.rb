@@ -30,9 +30,24 @@ def self.all
    "I am a #{species}."
  end
 
- def buy_fish
+ def buy_fish(name)
    fish = Fish.new(name)
    pets[:fishes] << fish
  end
+
+ def buy_cat(name)
+   cat = Cat.new(name)
+   pets[:cats] <<  cats
+ end
+
+ def buy_dogs(name)
+   dog = Dog.new(name)
+   pets[:dogs] << dogs
+ end
+
+     end
+
+
+   end
 
 end
