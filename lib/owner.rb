@@ -60,11 +60,14 @@ end
 
 
 def sell_pets
-    pets.each do |type, pets|
-      pets.map {|pet| pet.mood = "nervous"}
+  pets.each do |type, pets|
+   pets.map {|pet| pet.mood = "nervous"}
     end
-    pets.clear
+   pets.clear
   end
 
+  def list_pets
+    puts "I have #{@pets[:fishes].size}, #{@pets[:dogs].size}(s), and #{@pets[:cats].size}(s)."
+end
 
 end
