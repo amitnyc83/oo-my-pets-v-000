@@ -50,5 +50,13 @@ def walk_dogs
   pets[:dogs].find { |dog|  dog.mood = "happy"}
 end
 
+def play_with_cats
+  pets[:cats].find {|cat| cat.mood = "happy"}
+end
+
+def feed_fish
+  pets[:fishes].find{|fish| fish.mood = "happy"}
+end
+
 
 end
