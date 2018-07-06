@@ -62,7 +62,7 @@ def sell_pets
   pets.each do |type, pets|
     pets.find |pet|
     if pet.mood = "nervous"
-      @pets.clear
+      pets.clear
   end
 end
 end
