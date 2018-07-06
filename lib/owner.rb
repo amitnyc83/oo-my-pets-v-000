@@ -45,9 +45,6 @@ def self.all
    pets[:dogs] << dogs
  end
 
-     end
-
-
-   end
+    
 
 end
