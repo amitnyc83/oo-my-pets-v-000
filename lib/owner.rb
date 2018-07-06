@@ -11,7 +11,7 @@ attr_reader :species
 def initialize(species)
   @species = species
   @@all << self
-  @type_pet = {:fishes => [], :dogs => [], :cats => []}
+  @pets = {:fishes => [], :dogs => [], :cats => []}
 end
 
 def self.all
@@ -27,7 +27,7 @@ def self.all
  end
 
  def say_species
-   puts "I am a #{species}."
+   "I am a #{species}."
  end
 
 end
