@@ -37,12 +37,12 @@ def self.all
 
  def buy_cat(name)
    cat = Cat.new(name)
-   pets[:cats] <<  cats
+   pets[:cats] <<  cat
  end
 
  def buy_dogs(name)
    dog = Dog.new(name)
-   pets[:dogs] << dogs
+   pets[:dogs] << dog
  end
 
     
