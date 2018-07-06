@@ -63,6 +63,7 @@ def sell_pets
     pets.find {|pet| pet.mood = "nervous"}
     pets.clear
   end
+end
 
 
 end
