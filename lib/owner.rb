@@ -46,5 +46,9 @@ def self.all
  end
 
 
+def walk_dogs
+  pets[:dogs].find{|dog|  dog.mood == "happy"}
+end
+
 
 end
